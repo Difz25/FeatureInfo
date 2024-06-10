@@ -1,0 +1,15 @@
+name: FeatureInfo
+main: RetroDevs\FeatureInfo\Main
+version: 1.0.0
+api: 5.0.0
+author: RetroDevs
+
+commands:
+  feature:
+    description: RetroDevs FeatureInfo
+    permission: feature.use
+
+permissions:
+  feature.use:
+    description: FeatureInfo Permission
+    default: true
