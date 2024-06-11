@@ -10,7 +10,7 @@ Player can show in this plugins
 # Configuration
 Timber comes with a config.yml to set the feature in plugin_data/FeatureInfo
 # Depend
-- Install FormAPI in [Here](https://poggit.pmmp.io/ci/Difz25/FormAPI/FormAPI)
+- Install FormAPI in [Poggit](https://poggit.pmmp.io/ci/Difz25/FormAPI/FormAPI)
 
 # Bug And Issues
 - Fix the text not showing
