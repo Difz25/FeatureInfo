@@ -8,7 +8,7 @@ FeatureInfo is a Pocketmine plugins to show your server feature
 Player can show in this plugins
 
 # Configuration
-Timber comes with a config.yml to set the feature in plugin_data/FeatureInfo
+Feature editing with a config.yml to set the feature info you can move to plugin_data/FeatureInfo/config.yml
 # Depend
 - Install FormAPI in [Poggit](https://poggit.pmmp.io/ci/Difz25/FormAPI/FormAPI)
 
