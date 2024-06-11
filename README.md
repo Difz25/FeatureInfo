@@ -16,6 +16,6 @@ Timber comes with a config.yml to set the feature in plugin_data/FeatureInfo
 - Fix the text not showing
 
 # Credit
-Money Reduction was developed by [KumaDev](https://github.com/Difz25)
+FeatureInfo was developed by [KumaDev](https://github.com/Difz25)
   
 <img align="right" alt="GIF" src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" />
