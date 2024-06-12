@@ -13,7 +13,7 @@ Feature editing with a config.yml to set the feature info you can move to plugin
 - Install FormAPI in [Poggit](https://poggit.pmmp.io/ci/Difz25/FormAPI/FormAPI)
 
 # Bug And Issues
-- Fix the text not showing
+- text not showing
 
 # Credit
 FeatureInfo was developed by [Difz25](https://github.com/Difz25)
