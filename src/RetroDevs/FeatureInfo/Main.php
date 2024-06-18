@@ -14,8 +14,8 @@ class Main extends PluginBase {
     public Config $cfg;
 
     public function onEnable(): void {
-        $this->saveResource();
-        $this->saveDefaultConfig("config.yml");
+        $this->saveResource("config.yml");
+        $this->saveDefaultConfig();
         $this->cfg = new Config($this->getDataFolder() . "config.yml", Config::YAML);
     }
 
