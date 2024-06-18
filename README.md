@@ -8,9 +8,12 @@ FeatureInfo is a Pocketmine plugins to show your server feature
 Player can show in this plugins
 
 # Configuration
-Feature editing with a config.yml to set the feature info you can move to plugin_data/FeatureInfo/config.yml
+Feature editing in [config.yml](https://github.com/Difz25/FeatureInfo/blob/main/resources/config.yml)
+
 # Depend
-- Install FormAPI in jojoe77777 [Github](https://github.com/jojoe77777/FormAPI) or [Poggit](https://poggit.pmmp.io/ci/Difz25/FormAPI/FormAPI) FormAPI or My Fork FormAPI [PM5](https://github.com/Difz25/FormAPI)
+| Author | Plugin Github | Plugin Poggit |
+| - | - | - |
+| jojoe77777 | [FormAPI](https://github.com/jojoe77777/FormAPI) | [FormAPI](https://poggit.pmmp.io/ci/Difz25/FormAPI/FormAPI) |
 
 # Bug And Issues
 - text not showing
