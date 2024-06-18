@@ -14,7 +14,8 @@ class Main extends PluginBase {
     public Config $cfg;
 
     public function onEnable(): void {
-        $this->saveResource("config.yml");
+        $this->saveResource();
+        $this->saveDefaultConfig("config.yml");
         $this->cfg = new Config($this->getDataFolder() . "config.yml", Config::YAML);
     }
 
@@ -22,19 +23,21 @@ class Main extends PluginBase {
         if ($command->getName() === "feature") {
             if($sender instanceof Player) {
                 $this->FeatureUI($sender);
+                return true;
             } else {
                 $sender->sendMessage("Please use this command in-game.");
+                return false;
             }
         }
         return true;
     }
 
-    public function FeatureUI(Player $player): void
-    {
+    public function FeatureUI(Player $player): void {
         $form = new SimpleForm(function (Player $player, $data) {
             if ($data === null) {
                 return false;
             }
+            
             return true;
         });
         $form->setTitle($this->cfg->get("feature-title"));
