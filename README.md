@@ -5,7 +5,9 @@ FeatureInfo is a Pocketmine plugins to show your server feature
 - To show your server info / feature
 
 # Usage
-Player can show in this plugins
+| Command | Description |
+| - | - |
+| `/feature` | Shiw server feature |
 
 # Configuration
 Feature editing in [config.yml](https://github.com/Difz25/FeatureInfo/blob/main/resources/config.yml)
